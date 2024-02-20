@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wordle</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <header></header>
+
+    <main>
+      <div id="timer">time : 00:00</div>
+      <div class="board-row row-0">
+        <div class="board-column" data-index="00"></div>
+        <div class="board-column" data-index="01"></div>
+        <div class="board-column" data-index="02"></div>
+        <div class="board-column" data-index="03"></div>
+        <div class="board-column" data-index="04"></div>
+      </div>
+      <div class="board-row row-1">
+        <div class="board-block" data-index="10"></div>
+        <div class="board-block" data-index="11"></div>
+        <div class="board-block" data-index="12"></div>
+        <div class="board-block" data-index="13"></div>
+        <div class="board-block" data-index="14"></div>
+      </div>
+      <div class="board-row row-2">
+        <div class="board-block" data-index="20"></div>
+        <div class="board-block" data-index="21"></div>
+        <div class="board-block" data-index="22"></div>
+        <div class="board-block" data-index="23"></div>
+        <div class="board-block" data-index="24"></div>
+      </div>
+      <div class="board-row row-3">
+        <div class="board-block" data-index="30"></div>
+        <div class="board-block" data-index="31"></div>
+        <div class="board-block" data-index="32"></div>
+        <div class="board-block" data-index="33"></div>
+        <div class="board-block" data-index="34"></div>
+      </div>
+      <div class="board-row row-4">
+        <div class="board-block" data-index="40"></div>
+        <div class="board-block" data-index="41"></div>
+        <div class="board-block" data-index="42"></div>
+        <div class="board-block" data-index="43"></div>
+        <div class="board-block" data-index="44"></div>
+      </div>
+      <div class="board-row row-5">
+        <div class="board-block" data-index="50"></div>
+        <div class="board-block" data-index="51"></div>
+        <div class="board-block" data-index="52"></div>
+        <div class="board-block" data-index="53"></div>
+        <div class="board-block" data-index="54"></div>
+      </div>
+    </main>
+    <footer>
+      <div class="keyboard-row row-1">
+        <div class="keyboard-column" data-key="Q">Q</div>
+        <div class="keyboard-column" data-key="W">W</div>
+        <div class="keyboard-column" data-key="E">E</div>
+        <div class="keyboard-column" data-key="R">R</div>
+        <div class="keyboard-column" data-key="T">T</div>
+        <div class="keyboard-column" data-key="Y">Y</div>
+        <div class="keyboard-column" data-key="U">U</div>
+        <div class="keyboard-column" data-key="I">I</div>
+        <div class="keyboard-column" data-key="O">O</div>
+        <div class="keyboard-column" data-key="P">P</div>
+      </div>
+      <div class="keyboard-row row-2">
+        <div class="keyboard-column" data-key="A">A</div>
+        <div class="keyboard-column" data-key="S">S</div>
+        <div class="keyboard-column" data-key="D">D</div>
+        <div class="keyboard-column" data-key="F">F</div>
+        <div class="keyboard-column" data-key="G">G</div>
+        <div class="keyboard-column" data-key="H">H</div>
+        <div class="keyboard-column" data-key="J">J</div>
+        <div class="keyboard-column" data-key="K">K</div>
+        <div class="keyboard-column" data-key="L">L</div>
+      </div>
+
+      <div class="keyboard-row row-3">
+        <div class="keyboard-column wide" data-key="ENTER">ENTER</div>
+        <div class="keyboard-column" data-key="Z">Z</div>
+        <div class="keyboard-column" data-key="X">X</div>
+        <div class="keyboard-column" data-key="C">C</div>
+        <div class="keyboard-column" data-key="V">V</div>
+        <div class="keyboard-column" data-key="B">B</div>
+        <div class="keyboard-column" data-key="N">N</div>
+        <div class="keyboard-column" data-key="M">M</div>
+        <div class="keyboard-column wide" data-key="BACK">BACK</div>
+      </div>
+    </footer>
+  </body>
+</html>
